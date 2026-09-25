@@ -1465,7 +1465,7 @@ include '../navbar.php';
         </div>
     <?php endif; ?>
 </div>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnmt907PtCJ_i5Yd3tIf2_w6CR3Y7KL84&libraries=places&callback=initAutocomplete" async defer></script>
+<script src="hidden" async defer></script>
 <script>
     console.log('jQuery loaded:', typeof $ !== 'undefined');
     console.log('Forms found:', $('form').length);
